@@ -1,0 +1,17 @@
+
+{
+  "name": "medical-multitool-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "serve -s build",
+    "dev": "parcel src/index.html --port 3000",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "parcel": "^2.0.0",
+    "serve": "^14.2.0"
+  }
+}

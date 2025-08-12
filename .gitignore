@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+node_modules/
+*.pyc
+*.db
+*.sqlite
+.env
+/multi-tool-agent-medical.zip
