@@ -245,14 +245,4 @@ docker-compose up -d
 
 ---
 
-## 📜 License
 
-MIT License © 2025 Your Name
-
-```
-
----
-
-If you want, I can **add this README into your ZIP** so it’s already packaged with the codebase.  
-Do you want me to do that?
-```
