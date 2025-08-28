@@ -11,13 +11,9 @@ A multi-tool AI agent that can:
 - 🌐 Search the web for general medical knowledge (definitions, symptoms, cures).
 - 🤖 Automatically decide whether to use dataset queries or online search based on user questions.
 
----
-
-## 📁 Project Structure
-
 ```
 
-# Project Structure
+## 📁 Project Structure
 
 ```text
 multi-tool-agent-medical/
