@@ -17,36 +17,37 @@ A multi-tool AI agent that can:
 
 ```
 
+# Project Structure
+
+```text
 multi-tool-agent-medical/
-│
-├── backend/
-│   ├── app.py                  # FastAPI backend server
-│   ├── db\_tools/
-│   │   ├── base\_tool.py         # Base tool with safe SQL execution
-│   │   ├── heart\_disease\_tool.py
-│   │   ├── cancer\_tool.py
-│   │   ├── diabetes\_tool.py
-│   ├── web\_tools/
-│   │   ├── medical\_web\_search.py
-│   ├── utils/
-│   │   ├── csv\_to\_sqlite.py     # Convert CSV datasets to SQLite
-│   ├── tests/
-│       ├── test\_db\_tools.py     # Unit tests for DB tools
-│
-├── frontend/
+├── backend/                     # FastAPI backend server
+│   ├── app.py                  # Main server entry
+│   ├── db_tools/               # Database tools for medical datasets
+│   │   ├── base_tool.py        # Base tool with safe SQL execution
+│   │   ├── heart_disease_tool.py
+│   │   ├── cancer_tool.py
+│   │   ├── diabetes_tool.py
+│   ├── web_tools/              # Web scraping / search tools
+│   │   ├── medical_web_search.py
+│   ├── utils/                  # Utility scripts
+│   │   ├── csv_to_sqlite.py    # Convert CSV datasets to SQLite
+│   ├── tests/                  # Unit tests
+│       ├── test_db_tools.py    # Tests for DB tools
+├── frontend/                    # React frontend
 │   ├── src/
-│   │   ├── App.js               # React frontend
-│   │   ├── components/
-│   │   ├── api.js               # API calls to backend
-│
-├── data/
+│   │   ├── App.js              # Main React component
+│   │   ├── components/         # UI components
+│   │   ├── api.js              # API calls to backend
+├── data/                        # CSV datasets
 │   ├── heart.csv
 │   ├── cancer.csv
 │   ├── diabetes.csv
-│
-├── requirements.txt
-├── package.json
-├── README.md
+├── requirements.txt             # Python dependencies
+├── package.json                 # Node.js dependencies
+└── README.md
+
+
 
 ````
 
