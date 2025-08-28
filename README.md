@@ -1,8 +1,3 @@
-Here’s a **production-ready `README.md`** for your **Multi-Tool Medical AI Agent** project.
-
----
-
-```markdown
 # 🩺 Multi-Tool AI Medical Agent
 
 A multi-tool AI agent that can:
@@ -10,8 +5,6 @@ A multi-tool AI agent that can:
 - 📊 Query medical datasets (Heart Disease, Cancer, Diabetes) directly from SQLite databases.
 - 🌐 Search the web for general medical knowledge (definitions, symptoms, cures).
 - 🤖 Automatically decide whether to use dataset queries or online search based on user questions.
-
-```
 
 ## 📁 Project Structure
 
